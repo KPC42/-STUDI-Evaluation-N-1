@@ -98,6 +98,13 @@ h1 {
     }
 }
 
+@media screen and (max-width:991px) {
+    .container {
+        display:none;
+    }
+    
+}
+
 .home {
     margin-bottom: 20px;
 }
@@ -141,6 +148,17 @@ h1 {
     margin:5%;
     text-align:justify;
 }
+
+@media screen and (max-width:1453px) {
+    .displayCard {
+        flex-direction: column;
+    }
+    .pictureBloc {
+        width:100%;
+    }
+}
+
+
 
 /* FOOTER */
 
