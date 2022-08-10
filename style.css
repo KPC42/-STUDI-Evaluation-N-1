@@ -120,7 +120,7 @@ h1 {
 .cardContent {
     width:80%;
     margin:auto;
-    background:#E5D7BE;
+    background:#E3E8F0;
     border-radius: 50px;
 }
 
@@ -140,4 +140,48 @@ h1 {
     font-size:1.2em;
     margin:5%;
     text-align:justify;
+}
+
+/* FOOTER */
+
+footer {
+    display:flex;
+    margin-top:20px;
+    background-color:#E5D7BE;
+    color:#414754;
+    width:100%;
+    text-align:center;
+}
+
+.socialMiddle {
+    padding-bottom:0.5%;
+    padding-left:10%;
+    width:90%;
+}
+
+.socialBottom {
+    justify-content:center;
+    display:flex;
+    flex-direction: column;
+    width:10%;
+}
+
+.socialLogo {
+    color:#414754;
+}
+
+.socialLogo:hover {
+    color:crimson;
+}
+
+.descriptionNewsletter {
+    margin-bottom:1rem;
+}
+
+.linkESP {
+    color:crimson;
+}
+
+.linkESP:hover {
+    color:#414754;
 }
