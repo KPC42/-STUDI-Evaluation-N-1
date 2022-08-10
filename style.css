@@ -98,6 +98,10 @@ h1 {
     }
 }
 
+.home {
+    margin-bottom: 20px;
+}
+
 
 .slideOne {
     background-image: url('images/GTAV.jpg')
@@ -109,4 +113,31 @@ h1 {
 
 .slideThree {
     background-image: url('images/RD2.jpg')
+}
+
+/* DIV CARD */
+
+.cardContent {
+    width:80%;
+    margin:auto;
+    background:#E5D7BE;
+    border-radius: 50px;
+}
+
+.displayCard {
+    display:flex;
+
+}
+
+.pictureBloc {
+    width:50vw;
+}
+
+.descriptionGaming, .descriptionEvent {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:1.2em;
+    margin:5%;
+    text-align:justify;
 }
