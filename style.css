@@ -1,0 +1,38 @@
+/* Body */
+
+body {
+    background-color:#414754;
+    font-size: 16px;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    z-index: 3;
+    position:absolute;
+    opacity: 0.7;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.menu {
+    font-family: 'Pacifico', cursive;
+    background-color:#E5D7BE;
+    color:#414754;
+
+}
+
+.logoImg {
+    width:50px;
+}
+
+.nav-item a, .logo {
+    color:#414754;
+}
+
+.breadcrumb {
+    background:#E3E8F0;
+}
