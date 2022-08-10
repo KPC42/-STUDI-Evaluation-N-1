@@ -1,7 +1,7 @@
 /* Body */
 
 body {
-    background-color:#414754;
+    background-color: #414754;
     font-size: 16px;
 }
 
@@ -10,7 +10,7 @@ body {
 header {
     width: 100%;
     z-index: 3;
-    position:absolute;
+    position: absolute;
     opacity: 0.7;
 }
 
@@ -20,19 +20,93 @@ h1 {
 
 .menu {
     font-family: 'Pacifico', cursive;
-    background-color:#E5D7BE;
-    color:#414754;
+    background-color: #E5D7BE;
+    color: #414754;
 
 }
 
 .logoImg {
-    width:50px;
+    width: 50px;
 }
 
-.nav-item a, .logo {
-    color:#414754;
+.nav-item a,
+.logo {
+    color: #414754;
 }
 
 .breadcrumb {
-    background:#E3E8F0;
+    background: #E3E8F0;
+}
+
+/* Main > Section > Carousel */
+
+.home .carousel-item {
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.home .carousel-item .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home .carousel-item:before {
+    content: ''
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.home .carousel-item .slideTitle {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 80px;
+    color: #E3E8F0;
+    margin: 0 0 10px;
+    opacity: 0.5;
+}
+
+.home .carousel-item p {
+    font-size: 40px;
+    margin: 0;
+    color: #E5D7BE;
+    opacity: 0;
+}
+
+.home .carousel-item.active p {
+    animation: fadeInRight 0.5s ease forwards;
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+.slideOne {
+    background-image: url('images/GTAV.jpg')
+}
+
+.slideTwo {
+    background-image: url('images/minecraft.jpg')
+}
+
+.slideThree {
+    background-image: url('images/RD2.jpg')
 }
