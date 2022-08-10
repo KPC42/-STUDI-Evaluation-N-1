@@ -1,0 +1,93 @@
+/* Body */
+
+body {
+    background-color: #414754;
+    font-size: 16px;
+}
+
+/* Header */
+
+header {
+    position:fixed;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.menu {
+    font-family: 'Pacifico', cursive;
+    background-color: #E5D7BE;
+    color: #414754;
+
+}
+
+.logoImg {
+    width: 50px;
+}
+
+.nav-item a,
+.logo {
+    color: #414754;
+}
+
+.breadcrumb {
+    background: #E3E8F0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    display:flex;
+    margin-top:20px;
+    background-color:#E5D7BE;
+    color:#414754;
+    width:100%;
+    text-align:center;
+}
+
+.socialMiddle {
+    padding-bottom:0.5%;
+    padding-left:10%;
+    width:90%;
+}
+
+.socialBottom {
+    justify-content:center;
+    display:flex;
+    flex-direction: column;
+    width:10%;
+}
+
+.socialLogo {
+    color:#414754;
+}
+
+.socialLogo:hover {
+    color:crimson;
+}
+
+.descriptionNewsletter {
+    margin-bottom:1rem;
+}
+
+.linkESP {
+    color:crimson;
+}
+
+.linkESP:hover {
+    color:#414754;
+}
