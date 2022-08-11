@@ -36,6 +36,20 @@ h1 {
     background: #E3E8F0;
 }
 
+/* Header > Fil d'Ariane */
+
+.breadcrumb {
+    background:#E3E8F0;
+}
+
+.breadcrumb-item a {
+    color:#414754;
+}
+
+.breadcrumb-item a:hover {
+    color:crimson;
+}
+
 /* Main */
 
 main {
