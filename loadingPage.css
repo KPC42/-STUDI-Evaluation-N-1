@@ -140,3 +140,10 @@ footer {
 .linkESP:hover {
     color:#414754;
 }
+
+@media screen and (max-width:900px) {
+    .loader {
+        display:none;
+    }
+    
+}
