@@ -65,6 +65,8 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     padding:20px;
     grid-gap:40px;
+    position:relative;
+    top:15px;
 }
 
 .card {
@@ -130,8 +132,8 @@ footer {
     color:#414754;
     width:100%;
     text-align:center;
-    position:fixed;
-    bottom:0;
+    position:relative;
+    top:30px;
 }
 
 .socialMiddle {
