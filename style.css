@@ -36,6 +36,7 @@ h1 {
 
 .breadcrumb {
     background: #E3E8F0;
+    border-radius: 0rem;
 }
 
 /* Main > Section > Carousel */

@@ -4,6 +4,9 @@ body {
     background-color: #414754;
     font-size: 16px;
     height:100vh;
+}
+
+main {
     display:grid;
     place-items: center center;
 }
@@ -11,7 +14,6 @@ body {
 /* Header */
 
 header {
-    position:fixed;
     width: 100%;
 }
 
@@ -28,6 +30,8 @@ h1 {
 
 .logoImg {
     width: 50px;
+    margin:0;
+    display: inline;
 }
 
 .nav-item a,
@@ -43,6 +47,7 @@ h1 {
 
 .breadcrumb {
     background:#E3E8F0;
+    border-radius: 0rem;
 }
 
 .breadcrumb-item a {
@@ -75,16 +80,18 @@ h1 {
 
 .cardOne:hover {
     transform: scale(0.8);
+    transition: 0.5s;
 }
 
 .cardTwo:hover {
     transform: scale(0.8);
+    transition: 0.5s;
 }
 
 .cardThree:hover {
     transform: scale(0.8);
+    transition: 0.5s;
 }
-
 
 img {
     width:100%;
@@ -114,10 +121,6 @@ img:hover {
     line-height: 30px;
 }
 
-
-
-
-
 /* FOOTER */
 
 footer {
@@ -127,6 +130,8 @@ footer {
     color:#414754;
     width:100%;
     text-align:center;
+    position:fixed;
+    bottom:0;
 }
 
 .socialMiddle {
@@ -160,4 +165,19 @@ footer {
 
 .linkESP:hover {
     color:#414754;
+}
+
+/* Fenêtre Modale */
+
+.modal-content {
+    padding: 10px;
+}
+
+.modalFooter form {
+    margin-left:10px;
+}
+
+.modalFooter {
+    display:flex;
+
 }
