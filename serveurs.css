@@ -3,6 +3,9 @@
 body {
     background-color: #414754;
     font-size: 16px;
+    height:100vh;
+    display:grid;
+    place-items: center center;
 }
 
 /* Header */
@@ -32,17 +35,84 @@ h1 {
     color: #414754;
 }
 
+.logo:hover {
+    color:black;
+}
+
+/* Header > Fil d'Ariane */
+
 .breadcrumb {
-    background: #E3E8F0;
+    background:#E3E8F0;
+}
+
+.breadcrumb-item a {
+    color:#414754;
+}
+
+.breadcrumb-item a:hover {
+    color:crimson;
+}
+
+/* Main > Cards */
+
+.serverCards {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding:20px;
+    grid-gap:40px;
+}
+
+.card {
+    background:#E5D7BE;
+    border-radius:20px;
+    box-shadow: 0 0 30px #E3E8F0;
+}
+
+.contentCard {
+    position:relative;
+    clip-path: polygon(0 0,100% 0,100% 85%, 0 100%);
+}
+
+.cardOne:hover {
+    transform: scale(0.8);
+}
+
+.cardTwo:hover {
+    transform: scale(0.8);
+}
+
+.cardThree:hover {
+    transform: scale(0.8);
 }
 
 
+img {
+    width:100%;
+    display:block;
+    border-radius: 20px 20px 0 0;
+}
 
+img:hover {
+    background:#414754;
+    opacity:0.5;
+}
 
+.details {
+    padding:20px 10px;
+}
 
+.details h3 {
+    text-align: center;
+    color:#414754;
+    font-weight: 600;
+    font-size: 18px;
+    margin:10px 0 15px 0;
+}
 
-
-
+.details p {
+    text-align: justify;
+    line-height: 30px;
+}
 
 
 

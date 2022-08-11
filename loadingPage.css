@@ -32,6 +32,10 @@ h1 {
     color: #414754;
 }
 
+.logo:hover {
+    color:black;
+}
+
 .breadcrumb {
     background: #E3E8F0;
 }
